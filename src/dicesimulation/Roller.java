@@ -78,7 +78,7 @@ public class Roller {
     }
 
     public String getPrcnt1() {
-        String prcnt = Double.toString(prcnt1);
+        String prcnt = String.format("%.2f", prcnt1);
         return prcnt;
     }
 
@@ -87,7 +87,7 @@ public class Roller {
 //    }
 
     public String getPrcnt2() {
-        String prcnt = Double.toString(prcnt2);
+        String prcnt = String.format("%.2f", prcnt2);
         return prcnt;
     }
 
@@ -96,7 +96,7 @@ public class Roller {
 //    }
 
     public String getPrcnt3() {
-        String prcnt = Double.toString(prcnt3);
+        String prcnt = String.format("%.2f", prcnt3);
         return prcnt;
     }
 
@@ -105,7 +105,7 @@ public class Roller {
 //    }
 
     public String getPrcnt4() {
-        String prcnt = Double.toString(prcnt4);
+        String prcnt = String.format("%.2f", prcnt4);
         return prcnt;
     }
 
@@ -114,7 +114,7 @@ public class Roller {
 //    }
 
     public String getPrcnt5() {
-        String prcnt = Double.toString(prcnt5);
+        String prcnt = String.format("%.2f", prcnt5);
         return prcnt;
     }
 
@@ -123,7 +123,7 @@ public class Roller {
 //    }
 
     public String getPrcnt6() {
-        String prcnt = Double.toString(prcnt6);
+        String prcnt = String.format("%.2f", prcnt6);
         return prcnt;
     }
 
